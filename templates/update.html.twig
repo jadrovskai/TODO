@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head> <meta charset="UTF-8" /> 
+<title>My To-do Application</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+{% form_theme form 'bootstrap_3_layout.html.twig' %}
+<div class="container"> 
+<hr/>
+    <div class="row"> 
+        <div class="col-md-6 col-md-offset-2"> 
+        <h1 class="text-center">Edit Task</h1> 
+        {{ form(form) }} 
+        </div> 
+    </div> 
+<hr/>
+</div>
+</html>
